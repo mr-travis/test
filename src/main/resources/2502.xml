@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<sys-header>
+		<data name="SYS_HEAD">
+			<struct>
+				<data name="CONSUMER_SEQ_NO">
+					<field type="string" length="42" scale="0">3682171504100183012001
+					</field>
+				</data>
+				<data name="ESB_SEQ_NO">
+					<field type="string" length="42" scale="0">201504071411569999999
+					</field>
+				</data>
+				<data name="WS_ID">
+					<field type="string" length="20" scale="0">996516</field>
+				</data>
+				<data name="SERVICE_SCENE">
+					<field type="string" length="20" scale="0">79</field>
+				</data>
+				<data name="CONSUMER_ID">
+					<field type="string" length="20" scale="0">525636</field>
+				</data>
+				<data name="SERVICE_CODE">
+					<field type="string" length="20" scale="0">05003000004</field>
+				</data>
+				<data name="TRAN_DATE">
+					<field type="string" length="20" scale="0">20150410</field>
+				</data>
+				<data name="TRAN_TIMESTAMP">
+					<field type="string" length="20" scale="0">092852000</field>
+				</data>
+			</struct>
+		</data>
+	</sys-header>
+	<app-header>
+		<data name="APP_HEAD">
+			<struct>
+				<data name="BRANCH_ID">
+					<field type="string" length="20" scale="0">001</field>
+				</data>
+				<data name="BIZ_SEQ_NO">
+					<field type="string" length="20" scale="0">3682171504100183127626
+					</field>
+				</data>
+				<data name="USER_ID">
+					<field type="string" length="20" scale="0">CSI</field>
+				</data>
+			</struct>
+		</data>
+	</app-header>
+	<local-header>
+		<data name="LOCAL_HEAD">
+			<struct>
+			</struct>
+		</data>
+	</local-header>
+	<body>
+		<data name="BODY">
+			<struct>
+				<data name="ORG_CODE">
+					<field type="string" length="3" scale="0">240</field>
+				</data>
+				<!--0000000600089785258-->
+				<data name="CLIENT_NO">
+					<field type="string" length="32" scale="0">0006221550099836425</field>
+				</data>
+				<data name="GLOBAL_TYPE">
+					<field type="string" length="5" scale="0"></field>
+				</data>
+				<!--1330219198211284538-->
+				<data name="GLOBAL_ID">
+					<field type="string" length="25" scale="0"></field>
+				</data>
+			</struct>
+		</data>
+	</body>
+</service>

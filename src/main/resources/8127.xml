@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+<sys-header>
+<data name="SYS_HEAD">
+<struct>
+<data name="CONSUMER_SEQ_NO">
+<field type="string" length="42" scale="0">3682171504100183012004</field>
+</data>
+<data name="ESB_SEQ_NO">
+<field type="string" length="42" scale="0">201504071411569999999</field>
+</data>
+<data name="WS_ID">
+<field type="string" length="20" scale="0">2011</field>
+</data>
+<data name="SERVICE_SCENE">
+<field type="string" length="20" scale="0">07</field>
+</data>
+<data name="CONSUMER_ID">
+<field type="string" length="20" scale="0">291712</field>
+</data>
+<data name="SERVICE_CODE">
+<field type="string" length="20" scale="0">05002000007</field>
+</data>
+<data name="TRAN_DATE">
+<field type="string" length="20" scale="0">20150410</field>
+</data>
+<data name="TRAN_TIMESTAMP">
+<field type="string" length="20" scale="0">092852000</field>
+</data>
+</struct>
+</data>
+</sys-header>
+<app-header>
+<data name="APP_HEAD">
+<struct>
+<data name="BRANCH_ID">
+<field type="string" length="20" scale="0">001</field>
+</data>
+<data name="BIZ_SEQ_NO">
+<field type="string" length="20" scale="0">3682171504100183127626</field>
+</data>
+<data name="USER_ID">
+<field type="string" length="20" scale="0">CSI</field>
+</data>
+</struct>
+</data>
+</app-header>
+<local-header>
+<data name="LOCAL_HEAD">
+<struct>
+</struct>
+</data>
+</local-header>
+<body>
+<data name="BODY">
+<struct>
+
+<data name="GLOBAL_TYPE"><!-- 1123404196308106122 -->
+	<field type="string" length="5" scale="0">1</field>
+</data>
+<data name="GLOBAL_ID"><!-- 1123404196308106122 123404196308106122-->
+	<field type="string" length="25" scale="0">361122199406124140</field>
+</data>
+<data name="PLAN_INSTAL_LIMIT">
+	<field type="string" length="19" scale="0">100</field>
+</data>
+
+</struct>
+</data>
+</body>
+</service>
