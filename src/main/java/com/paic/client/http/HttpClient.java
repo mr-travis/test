@@ -28,8 +28,8 @@ import org.apache.http.util.EntityUtils;
  */
 public class HttpClient {
 
-    /*
-     * ssss
+    /**
+     * 
      */
 	public static final String DEFAULT_MIME_TYPE = "text/plain";
 
